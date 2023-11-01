@@ -1,0 +1,10 @@
+This tutorial will explain the following:
+How to create virtual machines, resource groups, virtual networks
+Environments Used: Microsoft Azure, Windows 10, Linux, Remote Desktop
+Technology Used: 
+
+In Microsoft Azure go to the Resource Groups and select create resource group
+!
+
+Name your recource group and select review+create 
+After the resource group has passed its validation select create to complete the resource group's creation
