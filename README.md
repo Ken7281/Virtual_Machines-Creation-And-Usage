@@ -66,6 +66,9 @@ You can also ping other websites as well
 Successful ping of Youtube.com
 ![Successful Ping Of Youtube](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/8b8b4289-de2f-483a-986a-09f5054a3202)
 
+Successful pings shows internet connectivity betweeen the virtual machine and the website
+
+
 Successful ping of Github
 ![Successful Ping Of Github](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/b9bea225-183b-422e-9050-b84180f4d500)
 
