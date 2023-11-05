@@ -5,46 +5,46 @@ How to create and use virtual machines, resource groups, virtual networks
 Environments Used: Microsoft Azure, Windows 10, Linux, 
 Technology Used: Remote Desktop, Wireshark
 
-In the Microsoft Azure home page select Resource Groups and select create resource group
+In the Microsoft Azure home page select Resource Groups and select create resource group.
 ![Creating The Resource Group](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/ecefe4a5-39d3-44bb-a5a8-ecac8624450e)
 
-Name your recource group and select review+create 
-After the resource group has passed its validation select create to complete the resource group's creation
+Name your recource group and select review+create. 
+After the resource group has passed its validation select create to complete the resource group's creation.
 
-In the Microsoft Azure home page select Virtual Machines and select create Azure virtual machine
-When creating the virtual machine select the resource group that you previously created and select windows 10 as the image
+In the Microsoft Azure home page select Virtual Machines and select create Azure virtual machine.
+When creating the virtual machine select the resource group that you previously created and select windows 10 as the image.
 ![Creating The 1st Virtual Machine](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/85d50f7b-9b60-43a6-9020-cc4d721878ab)
 
-Select a size for the virtual machine that will allow you to use 2 vcpus
-Name the virtual machine and create a password 
+Select a size for the virtual machine that will allow you to use 2 vcpus.
+Name the virtual machine and create a password. 
 ![Creating The 1st Virtual Machine 2](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/ae35854a-a1fa-4661-bf9d-32fc40a34d6d)
 
-Click on the licensing agreement box and select review+create
-After the virtual machine has passed its validation selcet create to complete the virtual machine's creation
+Click on the licensing agreement box and select review+create.
+After the virtual machine has passed its validation selcet create to complete the virtual machine's creation.
 
-Now create a second virtual machine within the same resource group that was created earlier using Ubuntu as the image
+Now create a second virtual machine within the same resource group that was created earlier using Ubuntu as the image.
 ![Creating The 2nd Virtual Machine](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/9650a13d-dfa5-4e2d-861e-bcdf7ecf7a0e)
 
-Name the virtual machine and select password instead of SSH public key
+Name the virtual machine and select password instead of SSH public key.
 ![Creating The 2nd Virtual Machine 2](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/f6073b02-9051-4b7c-8239-d51e6389e833)
 
-Create a Username and password and select review+create after the virtual machine passes the validation check select create to complete the virtual machine's creation
+Create a Username and password and select review+create after the virtual machine passes the validation.
+Check select create to complete the virtual machine's creation.
 
-Now there should be two virtual machines within the same resource group. One running Windows 10 and one running Ubuntu also know as Linux
+Now there should be two virtual machines within the same resource group. One running Windows 10 and one running Ubuntu also know as Linux.
 ![The Two Virtual Machines](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/4ba7e14f-1eb1-4ea2-a583-474b4887c728)
 
-Open the first virtual machine and copy it's public IP address
+Open the first virtual machine and copy it's public IP address.
 ![Finding The IP Address Of The 1st VM](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/baf8d482-e0ed-444a-895e-eeb12a28c152)
 
-Connect to the first virtual machine using remote desktop, by opening remote desktop and pasting the public IP Address of the first virtual machine
+Connect to the first virtual machine using remote desktop, by opening remote desktop and pasting the public IP Address of the first virtual machine.
 ![Connecting To The First VM](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/12ddd9b6-ede2-4359-a45c-f99b6f5736e7)
 
-Enter the username and password for the first virtual machine and connect to it via remote desktop
+Enter the username and password for the first virtual machine and connect to it via remote desktop.
+Once connected to the virtual machine open the internet and download wireshark.
 
-Once connected to the virtual machine open the internet and download wireshark
-
-*Wireshark is a network protocol analyzer* which we will use to inspect traffic between both virtual machines
-Select WindowsX 64 installer and install onto the virtual machine 
+*Wireshark is a network protocol analyzer* which we will use to inspect traffic between both virtual machines.
+Select WindowsX 64 installer and install onto the virtual machine. 
 ![Downloading Wireshark onto the VM](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/0a337839-7efe-4b21-ab9d-5afb1da3a140)
 
 On the second virtual machine scroll down to find the private IP Address
