@@ -8,6 +8,8 @@ Environments Used: Microsoft Azure, Windows 10, Linux.
 
 Technology Used: Remote Desktop, Wireshark.
 
+A virtual machine is a virtual computer. Virtual achines use software instead of a physical computer and are capable of running programs, surfing the internet, and downloading apps. 
+
 In the Microsoft Azure home page select Resource Groups and select create resource group.
 ![Creating The Resource Group](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/ecefe4a5-39d3-44bb-a5a8-ecac8624450e)
 
@@ -50,7 +52,7 @@ Once connected to the virtual machine open the internet and download wireshark.
 Select WindowsX 64 installer and install onto the virtual machine. 
 ![Downloading Wireshark onto the VM](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/0a337839-7efe-4b21-ab9d-5afb1da3a140)
 
-On the second virtual machine scroll down to find the private IP Address.
+On the second virtual machine scroll down to find the private IP Address. Which is 10.0.0.5
 ![Private IP Address Of VM2](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/75a62686-d853-436f-aa0e-7b82dbd67f12)
 
 Open the wireshark app from the start menu and click on the blue fin to start the analysis process.
