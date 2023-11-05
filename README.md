@@ -74,7 +74,7 @@ Successful pings shows internet connectivity betweeen the virtual machine and th
 
 On VM2 select network settings and select VM2's network security group or nsg for short. 
 On The Network security group select inbound security rules and select add to create a new rule.
-![Adding Rules In The Network Security Group](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/9656a31b-1185-4d45-9da9-51c8a13c7e1d)
+![Adding Rules In The Network Security Group](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/943e0305-eed6-4e38-b98b-2f45482e444e)
 
 By editing the inbound and outbound rules, we can deny or allow certain types of internet traffic.
 By changing the protocol to ICMP and changing the action to deny, all inbound ICMP traffic to VM2 will be denied. 
