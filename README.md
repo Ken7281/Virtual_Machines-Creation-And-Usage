@@ -84,7 +84,9 @@ By editing the inbound and outbound rules, we can deny or allow certain types of
 By changing the protocol to ICMP and changing the action to deny, all inbound ICMP traffic to VM2 will be denied. 
 ![Changing The Inbound Rules 1 (1)](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/fba3a5dd-734d-44ec-ba38-bf1ab606021d)
 ![Changing The Inbound Rules 1 (2)](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/0c4c0336-e840-4ed6-b628-09b5329b8af9)
-Because of the inbound rules on VM2's nsg, VM1 cannot ping VM2
+
+Because of the inbound rules on VM2's network security group, VM1 cannot ping VM2
+
 ![Failed Ping Between VM1 To VM2](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/d2f552bd-6b9f-49fa-8b30-08e60048522a)
 
 Changing the inbound security rules to allow ICMP traffic will once again allow VM2 to recieve ICMP traffic.
