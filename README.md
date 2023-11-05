@@ -75,3 +75,24 @@ Successful ping of Github
 Successful ping of CourseCareers.com 
 ![Successful Ping Of CourseCareers](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/a46a0a78-548c-47a7-8e7f-027fac6fb4f6)
 
+On VM2 select network settings and select VM2's network security group or nsg for short. 
+On The Network security group select inbound security rules and select add to create a new rule
+![Adding Rules In The Network Security Group](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/9656a31b-1185-4d45-9da9-51c8a13c7e1d)
+
+By editing the inbound and outbound rules, we can deny or allow certain types of internet traffic.
+By changing the protocol to ICMP and changing the action to deny, all inbound ICMP traffic to VM2 will be denied 
+![Changing The Inbound Rules 1 (1)](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/fba3a5dd-734d-44ec-ba38-bf1ab606021d)
+![Changing The Inbound Rules 1 (2)](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/0c4c0336-e840-4ed6-b628-09b5329b8af9)
+Because of the inbound rules on VM2's nsg, VM1 cannot ping VM2
+![Failed Ping Between VM1 To VM2](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/d2f552bd-6b9f-49fa-8b30-08e60048522a)
+
+Changing the inbound security rules to allow ICMP traffic will once again allow VM2 to recieve ICMP traffic
+
+![Changing The NSG Rules To Allow ICMP](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/bced5605-6527-4666-a99c-262e53da37cf)
+![Allowing ICMP Traffic Again](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/e0f43504-d788-4e37-a4c6-39b5dc160d9b)
+
+
+Demonstration 
+
+
+
