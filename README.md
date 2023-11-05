@@ -12,7 +12,7 @@ Technology Used: Remote Desktop, Wireshark.
 
 *A virtual network is a networking system that allows virtual machines and data centers to connect wirelessly.*
 
-*A resource group is a container that holds information. It organizes and manages different information and their relation to one another*
+*A resource group is a container that holds information. It organizes and manages different information and their relation to one another.*
 
 In the Microsoft Azure home page select Resource Groups and select create resource group.
 ![Creating The Resource Group](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/ecefe4a5-39d3-44bb-a5a8-ecac8624450e)
