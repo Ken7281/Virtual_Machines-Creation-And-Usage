@@ -8,7 +8,7 @@ Environments Used: Microsoft Azure, Windows 10, Linux.
 
 Technology Used: Remote Desktop, Wireshark.
 
-*A virtual machine is a virtual computer. Virtual achines use software instead of a physical computer and are capable of running programs, surfing the internet, and downloading apps.*
+*A virtual machine is a virtual computer. Virtual machines use software instead of a physical computer and are capable of running programs, surfing the internet, and downloading apps.*
 
 *A virtual network is a networking system that allows virtual machins and data centers to connect wirelessly*
 
