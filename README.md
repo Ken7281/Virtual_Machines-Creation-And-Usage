@@ -39,24 +39,24 @@ Check select create to complete the virtual machine's creation.
 Now there should be two virtual machines within the same resource group. One running Windows 10 and one running Ubuntu also know as Linux.
 ![The Two Virtual Machines](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/4ba7e14f-1eb1-4ea2-a583-474b4887c728)
 
-Open the first virtual machine and copy it's public IP address.
+Open the first virtual machine VM1 and copy it's public IP address. Which is 20.127.184.219
 ![Finding The IP Address Of The 1st VM](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/baf8d482-e0ed-444a-895e-eeb12a28c152)
 
-Connect to the first virtual machine using remote desktop, by opening remote desktop and pasting the public IP Address of the first virtual machine.
+Connect to VM1 using remote desktop, by opening remote desktop and pasting the public IP Address of VM1.
 ![Connecting To The First VM](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/12ddd9b6-ede2-4359-a45c-f99b6f5736e7)
 
-Enter the username and password for the first virtual machine and connect to it via remote desktop.
+Enter the username and password for VM1 and connect to it via remote desktop.
 Once connected to the virtual machine open the internet and download wireshark.
 
-*Wireshark is a network protocol analyzer* which we will use to inspect traffic between both virtual machines.
+*Wireshark is a network protocol analyzer* which we will use to monitor traffic between both virtual machines.
 Select WindowsX 64 installer and install onto the virtual machine. 
 ![Downloading Wireshark onto the VM](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/0a337839-7efe-4b21-ab9d-5afb1da3a140)
 
-On the second virtual machine scroll down to find the private IP Address. Which is 10.0.0.5
+On the second virtual machine VM2 scroll down to find the private IP Address. Which is 10.0.0.5
 ![Private IP Address Of VM2](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/75a62686-d853-436f-aa0e-7b82dbd67f12)
 
 Open the wireshark app from the start menu and click on the blue fin to start the analysis process.
-Wire shark will begin showing all of the traffic running in the background of the virtual machine.
+Wireshark will begin showing all of the traffic running in the background of the virtual machine.
 ![Using Wireshark](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/9508d356-4643-4ff5-a655-e828a67da7cb)
 
 In the virtual machine open Windows PowerShell. 
