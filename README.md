@@ -62,7 +62,10 @@ Wireshark will begin showing all of the traffic running in the background of the
 In the virtual machine open Windows PowerShell. 
 ![Opening Powershell](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/cd567309-89de-4537-a9cd-62037bebb2cd)
 
-Reset wireshark by clicking the green fin at the top, and the on windows powershell ping the private IP address of the second virtual machine by typing ping and the private IP address.
+Reset wireshark by clicking the green fin at the top, and then filter wireshark to only show ICMP traffic by typing ICMP on wireshark's command line.
+![Filtering Traffic Using icmp](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/b9cb1598-209e-42d5-8fce-4b00eddaf50a)
+
+On windows powershell ping the private IP address of VM2 by typing ping and it's private IP address 10.0.0.5.
 
 There should be a successful ping between the virtual machines, and it should be visible on both Wireshark And Windows PowerShell.
 ![Successful Ping Between The Virtual Machines On Wireshark And PowerShell](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/76aee27f-689f-4023-bb65-c4fad219dce6)
