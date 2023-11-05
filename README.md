@@ -10,7 +10,7 @@ Technology Used: Remote Desktop, Wireshark.
 
 *A virtual machine is a virtual computer. Virtual machines use software instead of a physical computer and are capable of running programs, connecting to the internet, and downloading apps.*
 
-*A virtual network is a networking system that allows virtual machins and data centers to connect wirelessly*
+*A virtual network is a networking system that allows virtual machines and data centers to connect wirelessly.*
 
 In the Microsoft Azure home page select Resource Groups and select create resource group.
 ![Creating The Resource Group](https://github.com/Ken7281/Virtual_Machines-Creation-And-Usage/assets/142465932/ecefe4a5-39d3-44bb-a5a8-ecac8624450e)
