@@ -1,8 +1,11 @@
 # Virtual_Machines-Creation-And-Usage
 
 This tutorial will explain the following.
+
 How to create and use virtual machines, resource groups, virtual networks.
+
 Environments Used: Microsoft Azure, Windows 10, Linux. 
+
 Technology Used: Remote Desktop, Wireshark.
 
 In the Microsoft Azure home page select Resource Groups and select create resource group.
