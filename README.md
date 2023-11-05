@@ -1,6 +1,6 @@
 # Virtual_Machines-Creation-And-Usage
 
-This tutorial will explain the following.
+This tutorial will explain the following:
 
 How to create and use virtual machines, resource groups, virtual networks.
 
